@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #0E1A23;
+  max-width: 1170px;
+  margin: auto;
+  min-height: 50vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.button2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+button {
+  width: 25vw;
+  height: 100px;
+  cursor: pointer;
+  background: #0E1A23;
+  margin: 20px 25px;
+  border: solid 2px #FF4655;
+}
+
+button a {
+  color: #FF4655;
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+.logo h1 {
+  margin-top: 25px;
+  color: #FFF;
+}
+
+.img-page1, .input-page1 {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.img-page1 img, .input-page1 img {
+  max-width: 350px;
+  width: 100%;
+}
+
+.input-page1 {
+  margin-top: 25px;
+}
+
+.input-page1 input {
+  padding: 8px;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  outline: none;
+}
+
+.button-send button {
+  width: 315px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+p {
+  color: #FFF;
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.result p:first-child {
+  margin-top: 25px;
+}
+
+.result p {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

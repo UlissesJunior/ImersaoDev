@@ -1,0 +1,121 @@
+// Variáveis
+$bg_black: #0E1A23;
+$bg_blue: #0D2752;
+$rosa: #FF4655;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Poppins;
+  }
+  
+body {
+    background-color: $bg_black;
+    max-width: 1170px;
+    margin: auto;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    img {
+        width: 200px;
+    }
+}
+
+.button2{
+    display:inline-flex;
+}
+
+button {
+    // width: 350px;
+    // width: 500px;
+    // height: 60px;
+    width: 25vw;
+    height: 100px;
+    cursor: pointer;
+    background: $bg_black;
+    margin: 20px 25px;
+    border: solid 2px $rosa;
+    a {
+        color: $rosa;
+        list-style: none;
+        text-decoration: none;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+// button:hover {
+//     transition: 0.6 ease;
+//     background-color: $rosa;
+//     a {
+//         color: $bg_black;
+//     }
+// }
+
+// Aula 1
+.logo h1 {
+    margin-top: 25px;
+    color: #FFF;
+}
+
+.img-page1, .input-page1 {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    img {
+        max-width: 350px;
+        width: 100%;
+    }
+}
+
+.input-page1 {
+    margin-top: 25px;
+    input {
+        padding: 8px;
+        width: 300px;
+        height: 40px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        outline: none;
+    }
+    
+}
+
+.button-send {
+    button {
+        width: 315px;
+        height: 60px;
+        border-radius: 8px; 
+    }
+            
+}
+
+p {
+    color: #FFF;
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 24px 0;
+    text-align: center;
+}
+
+// Aula 2
+.result {
+    p:first-child {
+        margin-top: 25px;
+    }
+    p {
+        margin: 0;
+    }
+}
