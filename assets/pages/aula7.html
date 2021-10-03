@@ -7,32 +7,38 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="icon" type="image/x-icon" href="../img/brain.svg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="../js/aula3.js" defer></script>
-    <title>Aula 3</title>
+    
+    <title>Aula 7</title>
 </head>
 <body>
 
     <div class="logo">
         <a href="../../index.html"><img src="../img/CodeByPixel.svg"></a>
-        <h1>Mentalista</h1>
-    </div>
-
-    <div class="img-page1">
-        <a href="aula3.html"><img src="../img/brain.svg"></a>
+        <a href="aula7.html" style="text-decoration: none;"><h1>SuperTrunfo</h1></a>
     </div>
 
     <div >
-        <p class="result">Digite um número de 0 a 10:  </p>
+        <p class="result">Sorteie uma carta:</p>
     </div>
 
-    <form>
-    <div class="input-page1">
-        <input type="number" id="chute" placeholder="Número entre 0 e 10">
+    <div class="button-send">
+        <button type="button" onclick="SortearCarta()" class="btnSortear" ><a>Sortear Carta</a></button>
+    </div>
+
+    <div >
+        <p>Escolha seu atributo:</p>
+        <div class="opcoes" id="opcoes"></div>
+    </div>
+
+    <div class="button-send">
+        <button type="submit" onclick="jogar()" id="btnJogar"><a>Jogar</a></button>
     </div>
     
-    <div class="button-send">
-        <button><a type="submit" id="send" >Chutar</a></button>
+    <div class="resultado" id="resultado">
+
     </div>
+
     </form>
+    <script src="../js/aula7.js"></script>
 </body>
 </html>
