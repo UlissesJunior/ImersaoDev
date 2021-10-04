@@ -50,7 +50,7 @@ function Opcoes() {
     for (var atributos in cartaplayer.atributos) {
         console.log(atributos)
         OpcoesTxt += 
-        "<input style='display:flex' type='radio' name='atributos' value='" + atributos +  "'>" + "<a>" + atributos + "</a>"
+        "<input type='radio' name='atributos' value='" + atributos +  "'>" + "<label style='display:inline;padding-left:8px'>" + atributos + "</label>" + "<br>"
     }
     opcoes.innerHTML = OpcoesTxt
 }

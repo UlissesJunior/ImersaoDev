@@ -212,10 +212,38 @@ td {
 }
 
 //Aula 7
-// input[type=radio] {
-//     width: 16px;
-//     border: 2px $rosa;
-// }
+input[type="radio"] {
+    cursor: pointer;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 3px solid $rosa;
+    border-radius: 50%;
+    position: relative;
+}
+
+input[type="radio"]:before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    margin-top: -1px;
+    margin-left: -1px;
+    background: $rosa;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    position: absolute;
+}
+
+input[type="radio"]:checked:before{
+    opacity: 1;
+}
+  
+label {
+    position: absolute;
+    color: $rosa;
+    font-size: 18px;
+}
 
 //Responsivo
 @media (max-width: 1100px) {
